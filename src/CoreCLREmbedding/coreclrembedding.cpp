@@ -582,7 +582,7 @@ HRESULT CoreClrEmbedding::Initialize(BOOL debugMode)
 
 	for (deps_entry_t entry : resolver.m_deps->get_entries(deps_entry_t::asset_types::runtime))
 	{
-		if (entry.library_name == _X("Edge.js"))
+		if (pal::to_lower(entry.library_name) == _X("edge.js"))
 		{
 			foundEdgeJs = true;
 			break;
