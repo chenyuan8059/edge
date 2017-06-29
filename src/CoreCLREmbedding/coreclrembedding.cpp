@@ -253,6 +253,11 @@ HRESULT CoreClrEmbedding::Initialize(BOOL debugMode)
 		}
 	}
 
+	else
+	{
+		pal::realpath(&edgeAppDir);
+	}
+
 	pal::string_t coreClrDirectory;
 	pal::string_t coreClrEnvironmentVariable;
 	pal::string_t dependencyManifestFile;
