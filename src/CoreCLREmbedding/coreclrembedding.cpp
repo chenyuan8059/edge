@@ -617,7 +617,7 @@ HRESULT CoreClrEmbedding::Initialize(BOOL debugMode)
 	BootstrapperContext context;
 
 	std::vector<char> coreClrDirectoryCstr, currentDirectoryCstr, edgeAppDirCstr, dependencyManifestFileCstr;
-	pal::pal_clrstring(clr_path, &coreClrDirectoryCstr);
+	pal::pal_clrstring(clr_dir, &coreClrDirectoryCstr);
 	pal::pal_clrstring(currentDirectory, &currentDirectoryCstr);
 	pal::pal_clrstring(edgeAppDir, &edgeAppDirCstr);
 	pal::pal_clrstring(dependencyManifestFile, &dependencyManifestFileCstr);
