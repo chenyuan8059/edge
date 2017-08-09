@@ -1,0 +1,24 @@
+# Hidden files
+\..*
+
+# Build
+build
+bin/
+obj/
+*.user
+*.suo
+packages/*
+
+# Temp
+logs
+pids
+logs
+results
+
+# Edge.Js nuget
+/src/double
+
+# IDEs
+.vscode
+*.sublime-project
+*.sublime-workspace
