@@ -5,8 +5,8 @@ This is a fork of [tjanczuk/edge](https://github.com/tjanczuk/edge) intended to 
 
 Branches:
 * master: it only updates this README
-* [indigo-edge](tree/indigo-publish): where fixes are commited
-* [indigo-publish](tree/indigo-publish): to publish npm package [@indigo/edge](https://www.npmjs.com/package/@indigo/edge)
+* [indigo-edge](../../tree/indigo-edge): where fixes are commited
+* [indigo-publish](../../tree/indigo-publish): to publish npm package [@indigo/edge](https://www.npmjs.com/package/@indigo/edge)
 
 If you want to use this fork:
 ```
