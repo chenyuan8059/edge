@@ -1,3 +1,26 @@
+About this Fork
+====
+
+This is a fork of [tjanczuk/edge](https://github.com/tjanczuk/edge) intended to fix bugs, mainly regarding .Net Core support.
+
+Branches:
+* master: it only updates this README
+* [indigo-edge](tree/indigo-publish): where fixes are commited
+* [indigo-publish](tree/indigo-publish): to publish npm package [@indigo/edge](https://www.npmjs.com/package/@indigo/edge)
+
+If you want to use this fork:
+```
+npm install @indigo/edge
+require("@indigo/edge")
+```
+
+CONTRIBUTING
+====
+
+- First open an issue to discuss the intended change.
+- PRs should be made against indigo-edge branch.
+
+
 Edge.js: .NET and Node.js in-process [![Build Status](https://travis-ci.org/tjanczuk/edge.svg)](https://travis-ci.org/tjanczuk/edge)
 ====
 
